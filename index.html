@@ -1,79 +1,110 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <title>Anwar Rizk</title>
-        <link rel="stylesheet" href="style.css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    </head>
-    <body>
-        <aside class="left-side">
-            <figure>
-                <img class="my-image" src="images/Anwar.png" alt="Anwar Rizk">
-                <figcaption>
-                    <h2>Anwar Rizk</h2>
-                </figcaption>
-            </figure>
-            <summary>
-                <p>CS student | Competitive programer</p>
-            </summary>
-            <section class="about-me-root">
-                <div>
-                    <a href="#about-me"> About me </a>
-                </div>
-            </section>
-            <section class="my-work-root">
-                <div>
-                    <a href="#my-work"> My work </a>
-                </div>
-            </section>
-            <section class="contact-me-root">
-                <div>
-                    <a href="#contact-me" > Contact me </a>
-                </div>
-            </section>
-            <section class="copy-right">
-                <p> &copy; 2023 Anwar Rizk. All rights reserved. </p>
-            </section>
-        </aside>
-        <aside class="right-side">
-            <section class="about-me" id="about-me">
-                <h1 class="Title"> About me </h1>
-                <p>Hi 👋, <br><br>
-                I am a CS student at the University of Waterloo. I am currently<br>
-                in my third year. I am interested in web development and competitive programming. <br>
-                I have knowledge in HTML, CSS, JavaScript, Python, C, C++, Java, git and github. <br>
-                </p>
-            </section>
-            <section class="my-work" id="my-work">
-                <h1 class="Title"> My work </h1>
-                <p>Here are some of my projects:</p>
-                <ul>
-                    <li><a href="">Project 1</a></li>
-                    <li><a href="">Project 2</a></li>
-                    <li><a href="">Project 3</a></li>
-                </ul>
-            </section>
-            <section class="contact-me" id="contact-me">
-                <h1 class="Title"> Contact me </h1>
-                <div class="all-contacts">
-                    <div class="contact-1">
-                        <ul>
-                            <li class="icons"><a href="https://www.linkedin.com/in/anwar-rizk/"> <i class="fa fa-linkedin-square"></i> </a></li>
-                            <li class="icons"><a href="https://github.com/anwar-rizk"> <i class="fa fa-github"></i> </a></li>
-                            <li class="icons"><a href="mailto:anwar01285593087@gmail.com"> <i class="fa fa-envelope"></i> </a></li>
-                        </ul>
-                    </div>
-                    <div class="contact-2">
-                        <ul>
-                            <li class="icons"><a href="https://wa.me/qr/OJTQ46JF2AZPP1"> <i class="fa fa-whatsapp"></i> </a></li>
-                            <li class="icons"><a href="https://www.facebook.com/AnwarRizk.17"> <i class="fa fa-facebook-official"></i> </a></li>
-                            <li class="icons"><a href="https://www.instagram.com/anwar.rizk/"> <i class="fa fa-instagram"></i> </a></li>
-                        </ul>
-                    </div>
-                </div>
-            </section>
-        </aside>
-    </body>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <title>Anwar Rizk</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+  <aside class="left-side">
+    <figure>
+      <img class="my-image" src="images/Anwar.png" alt="Anwar Rizk">
+      <figcaption class="my-name">
+        <h2>Anwar Rizk</h2>
+      </figcaption>
+    </figure>
+    <summary>
+      <p>CS student | Competitive programer</p>
+    </summary>
+    <section class="short-cuts">
+      <a href="#about-me" class="short-cut">About Me</a>
+      <a href="#my-work" class="short-cut">My Work</a>
+      <a href="#contact-me" class="short-cut">Contact Me</a>
+    </section>
+    <footer class="copyright">
+      <p>&copy; 2023 Anwar Rizk. All rights reserved.</p>
+    </footer>
+  </aside>
+  
+  <hr>
+
+  <aside class="right-side">
+    <section class="about-me" id="about-me">
+      <h1 class="Title">About me</h1>
+      <p>
+        Hi 👋, <br>
+        I am a CS student at Suez Canal University. I am currently in my last year. I am interested in web development and competitive programming.<br>
+        I have knowledge in 
+        <span class="technology">HTML</span>, 
+        <span class="technology">CSS</span>, 
+        <span class="technology">JavaScript</span>, 
+        <span class="technology">Nodejs</span>, 
+        <span class="technology">Python</span>, 
+        <span class="technology">C</span>, 
+        <span class="technology">C++</span>, 
+        <span class="technology">Java</span>, 
+        <span class="technology">git</span> and 
+        <span class="technology">GitHub</span>. <br>
+      </p>
+    </section>
+
+    <section class="my-work" id="my-work">
+      <h1 class="Title">My work</h1>
+      <h2 class="work-intro">Here are some of my projects:</h2>
+      <div class = projects>
+        <a href="https://github.com/Anwar-Rizk/Node-Farm" class="project" target="_blank">Node Farm</a>
+        <a href="https://github.com/Anwar-Rizk/Birthday-Gift" class="project">Birthday Gift</a>
+        <a href="https://github.com/Anwar-Rizk/ATM" class="project" target="_blank">ATM</a>
+        <a href="https://github.com/Anwar-Rizk/Tic_Tac_Toe-X-O-" class="project" target="_blank">Tic Tac Toe</a>
+        <a href="https://github.com/EmanMohamed36/PC-Doctor" class="project" target="_blank">PC-Doctor</a>
+        <a href="https://github.com/Anwar-Rizk/Mobile_Shop" class="project" target="_blank">Mobile Shop</a>
+        <a href="https://github.com/Anwar-Rizk?tab=repositories" class="more project" target="_blank">More</a>
+      </div>
+    </section>
+
+    <section class="contact-me" id="contact-me">
+      <h1 class="Title">Contact me</h1>
+      <div class="contacts">
+        <ul>
+          <li class="icons">
+            <a href="https://www.linkedin.com/in/anwar-rizk/" target="_blank">
+              <i class="fa fa-linkedin-square"></i>
+            </a>
+          </li>
+          <li class="icons">
+            <a href="https://github.com/anwar-rizk" target="_blank">
+              <i class="fa fa-github"></i>
+            </a>
+          </li>
+          <li class="icons">
+            <a href="mailto:anwar01285593087@gmail.com" target="_blank">
+              <i class="fa fa-envelope"></i>
+            </a>
+          </li>
+          <br>
+          <li class="icons">
+            <a href="https://wa.me/1285593087" target="_blank">
+              <i class="fa fa-whatsapp"></i>
+            </a>
+          </li>
+          <li class="icons">
+            <a href="https://www.facebook.com/AnwarRizk.17" target="_blank">
+              <i class="fa fa-facebook-official"></i>
+            </a>
+          </li>
+          <li class="icons">
+            <a href="https://www.instagram.com/anwar.rizk/" target="_blank">
+              <i class="fa fa-instagram"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </section>
+  </aside>
+</body>
 
 </html>
